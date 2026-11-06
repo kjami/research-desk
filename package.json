@@ -1,0 +1,24 @@
+{
+  "name": "research-desk",
+  "version": "1.0.0",
+  "description": "A multi-agent research assistant in TypeScript. It plans, researches with MCP tools, writes a cited brief, defends itself with guardrails, is measured by evals, and runs on any model through OpenRouter.",
+  "license": "ISC",
+  "author": "Kishor",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@openrouter/sdk": "^1.5.60",
+    "dotenv": "^18.0.9",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}
